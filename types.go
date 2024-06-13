@@ -31,7 +31,7 @@ func (re *RespErr) Error() string {
 type Data struct {
 	Temp        *float64 `json:"temp,omitempty"`
 	HeatIndex   *float64 `json:"heatIndex,omitempty"`
-	DePoint     *float64 `json:"dewpt,omitempty"`
+	DewPoint    *float64 `json:"dewpt,omitempty"`
 	WindChill   *float64 `json:"windChill,omitempty"`
 	WindSpeed   *float64 `json:"windSpeed,omitempty"`
 	WindGust    *float64 `json:"windGust,omitempty"`

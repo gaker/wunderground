@@ -15,7 +15,7 @@ const (
 type Config struct {
 	ApiKey    string `json:"apiKey" yaml:"apiKey"`
 	StationId string `json:"stationId" yaml:"stationId"`
-	Unit      unit   `json:"unit" yaml:"unit"`
+	Unit      unit   `json:"unit" yaml:"unit" default:"m"`
 }
 
 func New(cfg *Config) *Wunderground {
